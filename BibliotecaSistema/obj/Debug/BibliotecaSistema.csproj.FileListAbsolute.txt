@@ -1,0 +1,6 @@
+C:\Users\Cristhofer\Desktop\ProyectoFinal\BibliotecaSistema\bin\Debug\BibliotecaSistema.dll
+C:\Users\Cristhofer\Desktop\ProyectoFinal\BibliotecaSistema\bin\Debug\BibliotecaSistema.pdb
+C:\Users\Cristhofer\Desktop\ProyectoFinal\BibliotecaSistema\obj\Debug\BibliotecaSistema.csproj.AssemblyReference.cache
+C:\Users\Cristhofer\Desktop\ProyectoFinal\BibliotecaSistema\obj\Debug\BibliotecaSistema.csproj.CoreCompileInputs.cache
+C:\Users\Cristhofer\Desktop\ProyectoFinal\BibliotecaSistema\obj\Debug\BibliotecaSistema.dll
+C:\Users\Cristhofer\Desktop\ProyectoFinal\BibliotecaSistema\obj\Debug\BibliotecaSistema.pdb

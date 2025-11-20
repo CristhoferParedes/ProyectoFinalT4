@@ -1,0 +1,11 @@
+C:\Users\Cristhofer\Desktop\ProyectoFinal\SistemaVentas\bin\Debug\SistemaVentas.exe.config
+C:\Users\Cristhofer\Desktop\ProyectoFinal\SistemaVentas\bin\Debug\SistemaVentas.exe
+C:\Users\Cristhofer\Desktop\ProyectoFinal\SistemaVentas\bin\Debug\SistemaVentas.pdb
+C:\Users\Cristhofer\Desktop\ProyectoFinal\SistemaVentas\obj\Debug\SistemaVentas.csproj.AssemblyReference.cache
+C:\Users\Cristhofer\Desktop\ProyectoFinal\SistemaVentas\obj\Debug\SistemaVentas.csproj.CoreCompileInputs.cache
+C:\Users\Cristhofer\Desktop\ProyectoFinal\SistemaVentas\obj\Debug\SistemaVentas.exe
+C:\Users\Cristhofer\Desktop\ProyectoFinal\SistemaVentas\obj\Debug\SistemaVentas.pdb
+C:\Users\Cristhofer\Desktop\ProyectoFinal\SistemaVentas\bin\Debug\BibliotecaSistema.dll
+C:\Users\Cristhofer\Desktop\ProyectoFinal\SistemaVentas\bin\Debug\BibliotecaSistema.pdb
+C:\Users\Cristhofer\Desktop\ProyectoFinal\SistemaVentas\obj\Debug\SistemaVentas.exe.config
+C:\Users\Cristhofer\Desktop\ProyectoFinal\SistemaVentas\obj\Debug\SistemaV.1E85D3D6.Up2Date
