@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace BibliotecaSistema
 {
-    public class Class1
+    public class ClaseInterfaz
     {
         public static void n()
         {
-            Console.WriteLine("H");   
+            Console.WriteLine("Tienda Mass");   
         }
     }
 }

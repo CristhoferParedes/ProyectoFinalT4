@@ -8,7 +8,7 @@ namespace SistemaVentas
         static void Main(string[] args)
         {
             Console.WriteLine("Hola World");
-            Class1.n();
+            ClaseInterfaz.n();
         }
     }
 }
