@@ -7,7 +7,7 @@ namespace SistemaVentas
     {
         static void Main(string[] args)
         {
-            ClaseInterfaz.n();
+            ClaseMenu.MenuPrincipalDinamico();
         }
     }
 }

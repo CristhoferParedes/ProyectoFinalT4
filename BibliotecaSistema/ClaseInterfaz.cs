@@ -4,43 +4,43 @@ namespace BibliotecaSistema
 {
     public class ClaseInterfaz
     {
-        public static void n()
+        public static void Interfaz()
         {
-            Console.BackgroundColor = ConsoleColor.DarkYellow;
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("                                                                                            ");
-            Console.WriteLine("                              SISTEMA DE VENTAS - TIENDA MASS                               ");
-            Console.WriteLine("                                                                                            ");
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine("                                                                       ");
+            Console.WriteLine("               SISTEMA PARA GESTION DE VENTAS                          ");
+            Console.WriteLine("                                                                       ");
             Console.ResetColor();
 
             Console.SetCursorPosition(0, 4);
-            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            Console.BackgroundColor = ConsoleColor.Yellow;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("                                                                                            ");
+            Console.WriteLine("                                                                       ");
             Console.ResetColor();
 
-            for (int i = 5; i < 25; i++)
+            for (int i = 5; i < 20; i++)
             {
                 Console.SetCursorPosition(0, i);
-                Console.BackgroundColor = ConsoleColor.DarkYellow;
+                Console.BackgroundColor = ConsoleColor.Yellow;
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write("  ");
                 Console.ResetColor();
             }
 
-            for (int i = 5; i < 25; i++)
+            for (int i = 5; i < 20; i++)
             {
-                Console.SetCursorPosition(90, i);
-                Console.BackgroundColor = ConsoleColor.DarkYellow;
+                Console.SetCursorPosition(69, i);
+                Console.BackgroundColor = ConsoleColor.Yellow;
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write("  ");
                 Console.ResetColor();
             }
 
-            Console.SetCursorPosition(0, 25);
-            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            Console.SetCursorPosition(0, 20);
+            Console.BackgroundColor = ConsoleColor.Yellow;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("                                                                                            ");
+            Console.WriteLine("                                                                       ");
             Console.ResetColor();
         }
     }

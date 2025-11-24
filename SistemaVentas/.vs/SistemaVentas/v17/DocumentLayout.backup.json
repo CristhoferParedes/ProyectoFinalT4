@@ -3,14 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Cristhofer\\Desktop\\ProyectoFinal\\SistemaVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1ECDC040-6DE5-48F3-A6FE-B8F76F8B4530}|SistemaVentas.csproj|C:\\Users\\Cristhofer\\Desktop\\ProyectoFinal\\SistemaVentas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ECDC040-6DE5-48F3-A6FE-B8F76F8B4530}|SistemaVentas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8192C535-511A-4D12-821B-EBBC37AA4A64}|..\\BibliotecaSistema\\BibliotecaSistema.csproj|c:\\users\\cristhofer\\desktop\\proyectofinal\\bibliotecasistema\\claseinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8192C535-511A-4D12-821B-EBBC37AA4A64}|..\\BibliotecaSistema\\BibliotecaSistema.csproj|c:\\users\\cristhofer\\desktop\\proyectofinal\\bibliotecasistema\\clasemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8192C535-511A-4D12-821B-EBBC37AA4A64}|..\\BibliotecaSistema\\BibliotecaSistema.csproj|c:\\users\\cristhofer\\desktop\\proyectofinal\\bibliotecasistema\\claseinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1ECDC040-6DE5-48F3-A6FE-B8F76F8B4530}|SistemaVentas.csproj|c:\\users\\cristhofer\\desktop\\proyectofinal\\sistemaventas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ECDC040-6DE5-48F3-A6FE-B8F76F8B4530}|SistemaVentas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,8 +20,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClaseInterfaz.cs",
+              "DocumentMoniker": "C:\\Users\\Cristhofer\\Desktop\\ProyectoFinal\\BibliotecaSistema\\ClaseInterfaz.cs",
+              "RelativeDocumentMoniker": "..\\BibliotecaSistema\\ClaseInterfaz.cs",
+              "ToolTip": "C:\\Users\\Cristhofer\\Desktop\\ProyectoFinal\\BibliotecaSistema\\ClaseInterfaz.cs",
+              "RelativeToolTip": "..\\BibliotecaSistema\\ClaseInterfaz.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T10:34:35.92Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -30,7 +43,7 @@
               "RelativeDocumentMoniker": "..\\BibliotecaSistema\\ClaseMenu.cs",
               "ToolTip": "C:\\Users\\Cristhofer\\Desktop\\ProyectoFinal\\BibliotecaSistema\\ClaseMenu.cs",
               "RelativeToolTip": "..\\BibliotecaSistema\\ClaseMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAgAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T10:34:37.74Z",
               "EditorCaption": ""
@@ -38,24 +51,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ClaseInterfaz.cs",
-              "DocumentMoniker": "C:\\Users\\Cristhofer\\Desktop\\ProyectoFinal\\BibliotecaSistema\\ClaseInterfaz.cs",
-              "RelativeDocumentMoniker": "..\\BibliotecaSistema\\ClaseInterfaz.cs",
-              "ToolTip": "C:\\Users\\Cristhofer\\Desktop\\ProyectoFinal\\BibliotecaSistema\\ClaseInterfaz.cs",
-              "RelativeToolTip": "..\\BibliotecaSistema\\ClaseInterfaz.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T10:34:35.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Cristhofer\\Desktop\\ProyectoFinal\\SistemaVentas\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Cristhofer\\Desktop\\ProyectoFinal\\SistemaVentas\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T01:48:49.742Z",
               "EditorCaption": ""
