@@ -4,44 +4,69 @@ namespace BibliotecaSistema
 {
     public class ClaseMenu
     {
-        public static void MenuPrincipalDinamico()
+        public static void MenuPrincipal()
         {
-            string[] menuPrincipal = { " REGISTRAR ", "   VENTA   ", "  REPORTE  ", " MODIFICAR ", "   SALIR   " };
-            int controlFila = 1, indice = 0;
+            string[] arreglomenu = { "REGISTRAR", "  VENTA  ", " REPORTE ", "MODIFICAR", "  AYUDA  ", "  SALIR  " };
+            int posicion, opcionseleccionada = 0;
+            ConsoleKey tecla;                    
 
-            ClaseInterfaz.Interfaz();
-
-            ConsoleKey tecla;
-
-            for (int i = 0; i < menuPrincipal.Length; i++)
+            do
             {
-                Console.WriteLine(" ");
-                if (indice == i)
-                {
-                    Console.SetCursorPosition(controlFila,3);
-                    Console.BackgroundColor = ConsoleColor.White;
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    Console.Write(" " + menuPrincipal[i] + " ");
-                    Console.ResetColor();
-                }
-                else
-                {
-                    Console.SetCursorPosition(controlFila, 3);
-                    Console.BackgroundColor = ConsoleColor.White;
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    Console.Write(" " + menuPrincipal[i] + " ");
-                    Console.ResetColor();
+                Console.Clear();
+                ClaseInterfaz.Interfaz();
+                posicion = 1;
 
+                for (int i = 0; i < arreglomenu.Length; i++)
+                {                  
+                    if (opcionseleccionada == i)
+                    {
+                        Console.SetCursorPosition(posicion, 3);
+                        Console.BackgroundColor = ConsoleColor.Gray;
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.Write(" " + arreglomenu[i] + " ");
+                        Console.ResetColor();                     
+                    }
+                    else
+                    {
+                        Console.SetCursorPosition(posicion, 3);
+                        Console.BackgroundColor = ConsoleColor.White;
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.Write(" " + arreglomenu[i] + " ");
+                        Console.ResetColor();             
+                    }
+                    posicion = posicion + 12;
+                    Console.SetCursorPosition(2, 5);
                 }
-                controlFila = controlFila + 14;
+                tecla = Console.ReadKey(true).Key;
+
+                if (tecla == ConsoleKey.RightArrow)
+                {
+                    opcionseleccionada++;
+
+                    if (opcionseleccionada > arreglomenu.Length - 1)
+                    {
+                        opcionseleccionada = 0;
+                    }
+                }
+                else if (tecla == ConsoleKey.LeftArrow)
+                {
+                    opcionseleccionada--;
+
+                    if (opcionseleccionada < 0)
+                    {
+                        opcionseleccionada = arreglomenu.Length - 1;
+                    }
+                }
+
+            } while (tecla != ConsoleKey.Enter);
+
+            switch (opcionseleccionada)
+            {
+                case 0:
+                    //SubmenuRegistro();
+                    Console.WriteLine("Hola");
+                    break;
             }
-
-            //Continuar para que el menu cambie de opcion con las teclas de derecha e izquierda
-            //No olvidar la Est. Repetitiva Do{} while();
-
-            ConsoleKeyInfo Info = Console.ReadKey(true);
-            tecla = Info.Key;
-            Console.SetCursorPosition(0, 10);
         }
     }
 }
